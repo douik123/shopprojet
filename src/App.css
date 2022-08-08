@@ -4,42 +4,48 @@
 }
 .iconsear
 {
- background-color: yellow;
+ background-color: #ffbd27;
  width: 20px;
- height: 22px;
+ height: 21px;
+ align-items: center;
+ margin: 10px 0px 0px 0px;
 }
+
 .iconshop
 {
-  margin: 35px;
+  margin: 10px 35px 0px 35px;
 }
 .search
 {
   display: flex;
-  margin: 40px;
-  height: 22px;
+  margin: 13px 40px 10px 40px;
+  height: 15px;
+  align-items: center;
+  
 }
 .header
 {
   display: flex;
-
 	justify-content: space-between;
+  
 
 }
 .icon
 {
-  margin: 35px;
+  margin: 10px 35px 5px 35px;
   background-color: black;
   color: white;
   width: 100px;
   height: 35px;
   display: flex;
-
+  align-items: center;
 }
 .icons
 {
   display: flex;
   padding: 0 20px 0 20px;
-  margin: 40px;
+  margin: 13px 40px 10px 40px;
+  align-items: center;
 }
 .heart
 {
@@ -58,4 +64,56 @@
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
+
+}
+.navi
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  background-color: #ffbd27;
+  align-items: center;
+  
+}
+.navi2
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+.navi2 li
+{
+  display: inline-block;
+  padding: 6px 20px;
+}
+.shopmod
+{
+  padding: 6px 30px;
+  background-color: black;
+  color: white;
+
+}
+img {
+  width : 1200px;
+  height : 316px;
+  }
+.middle
+{
+  display: flex;
+  margin: 20px 0px ;
+}
+.table
+{
+  margin: 0px 0px 0px 50px;
+  
+}
+.Image
+{
+  margin: 0px 0px 0px 20px;
+}
+.tab
+{
+ margin: 7px;
 }

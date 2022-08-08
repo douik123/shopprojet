@@ -5,6 +5,7 @@ import { AiFillHeart } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 function App() {
   return (
+    <div className="allheader">
     <div className="header">
  <div className="iconshop"><h3><AiFillShopping/>DouikStore</h3></div>
  <div className="icon">
@@ -28,6 +29,7 @@ function App() {
 </div>
 
      
+    </div>
     </div>
   );
 }
