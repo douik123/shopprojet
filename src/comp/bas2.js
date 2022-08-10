@@ -7,7 +7,7 @@ console.log(props)
 <div className='imageprop'>{props.data.image}</div>
 <div className='name'><h2>{props.data.name}</h2></div>
 <div className='prix'>
-  <div><h4>{props.data.prix}</h4></div>
+  <div className='prixx'><h4>{props.data.prix}</h4></div>
   <div><h6><span>{props.data.discoundprix}</span></h6></div>
 </div>
 

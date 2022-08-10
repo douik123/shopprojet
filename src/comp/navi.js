@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="all">
         <div className="navi">
-            <div className="shopmod"><h3><GiHamburgerMenu/>Shop By Categories</h3></div>
+            <div className="shopmod"><GiHamburgerMenu/><h3>Shop By Categories</h3></div>
         
         <div className="navi2">
         <li>Home</li>

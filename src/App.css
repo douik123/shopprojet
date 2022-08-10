@@ -2,27 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
-.iconsear
-{
- background-color: #ffbd27;
- width: 20px;
- height: 21px;
- align-items: center;
- margin: 10px 0px 0px 0px;
-}
-
 .iconshop
 {
   margin: 10px 35px 0px 35px;
 }
-.search
-{
-  display: flex;
-  margin: 13px 40px 10px 40px;
-  height: 15px;
-  align-items: center;
-  
-}
+
 .header
 {
   display: flex;
@@ -93,6 +77,8 @@
   padding: 6px 30px;
   background-color: black;
   color: white;
+  display: flex;
+  align-items: center;
 
 }
 img {
@@ -120,7 +106,6 @@ img {
 }
 .card
 {
-  margin: 0px 10px 0px 50px;
 /* display: grid;
 width: 80em;
 grid-gap: 1em; */
@@ -146,13 +131,14 @@ width: 300px;
 .prix
 {
   display: flex;
-  margin: 0px 0px 0px 80px;
+
   align-items: center;
   
 }
 .allbas
 {
   display: flex;
+  justify-content: space-around;
 }
 .name
 {
@@ -161,7 +147,7 @@ width: 300px;
 }
 span
 {
-  margin: 0px 200px 0px 30px;
+  margin: 0px 20px 0px 30px;
   color: gray;
   text-decoration: line-through;
   font-size: 9px;
@@ -170,4 +156,80 @@ span
 {
   padding: 0px 0px 0px 7px;
 }
+.prixx
+{
+  padding: 0px 0px 0px 70px;
+}
+.iconsear {
+  background-color: #ffbd27;
+  /* width: 20px; */
+  /* height: 22px; */
+  display: flex;
+  align-items: center;
+  padding: 0px 5px;
+}
+.iconshop {
+  /* margin: 35px; */
+  display: flex;
+  align-items: center;
+}
+.search {
+  display: flex;
+  /* margin: 40px; */
+  /* height: 22px; */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 25px;
+}
+.location-container {
+  /* margin: 35px; */
+  background-color: black;
+  color: white;
+  /* width: 100px; */
+  /* height: 35px; */
+  display: flex;
+  align-items: center;
+  padding: 5px 13px;
+  border-radius: 6px;
+}
+.icons {
+  display: flex;
+  /* padding: 0 20px 0 20px; */
+  /* margin: 40px; */
+}
+.heart {
+  margin: 0 15px;
+}
+.user {
+  margin: 0 15px;
+}
+.shopp {
+  margin: 0 15px;
+}
+.location {
+  color: white;
+  /* display: flex;
+  flex-direction: column; */
+  margin-left: 10px;
+}
+​
+/* //////////////////// */
+.logo-icon {
+  width: 30px;
+  height: 30px;
+}
+.location-icon {
+  width: 20px;
+  height: 20px;
+}
+.input {
+  height: 30px;
+}
+.vertical-divider {
+  border-left: 1px solid black;
+}
+
 
