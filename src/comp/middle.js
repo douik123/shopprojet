@@ -13,28 +13,28 @@ function App() {
 		<div className='table'>
     <table border="1"  >
     <tr>
-		<td><div className='tab'><AiFillStar/>  Top Products</div></td>
+		<td><div className='tab'><div><AiFillStar/></div><div className='types'>Top Products</div></div></td>
 	</tr>
 	<tr>
-		<td><div className='tab'><FaTshirt/>Fashion</div></td>
+		<td><div className='tab'><div><FaTshirt/></div><div className='types'>Fashion</div></div></td>
 	</tr>
 	<tr>
-		<td><div className='tab'><MdComputer/>Electronics</div></td>
+		<td><div className='tab'><div><MdComputer/></div><div className='types'>Electronics</div></div></td>
 	</tr>
 	<tr>
-		<td><div className='tab'><BsFillPhoneFill/>Smartphone and Tablets</div></td>
+		<td><div className='tab'><div><BsFillPhoneFill/></div><div className='types'>Smartphone and Tablets</div></div></td>
 	</tr>
 	<tr>
-		<td><div className='tab'><FaHeadphones/>Accessoires</div></td>
+		<td><div className='tab'><div><FaHeadphones/></div><div className='types'>Accessoires</div></div></td>
 	</tr>
     <tr>
-		<td><div className='tab'><FaBed/>Bedroom Accessoires</div></td>
+		<td><div className='tab'><div><FaBed/></div><div className='types'>Bedroom Accessoires</div></div></td>
 	</tr>
     <tr>
-		<td><div className='tab'><FaBath/>bathroom Accessoires</div></td>
+		<td><div className='tab'><div><FaBath/></div><div className='types'>bathroom Accessoires</div></div></td>
 	</tr>
     <tr>
-		<td><div className='tab'><TbToolsKitchen2/>kitchen Accessoires</div></td>
+		<td><div className='tab'><div><TbToolsKitchen2/></div><div className='types'>kitchen Accessoires</div></div></td>
 	</tr>   
 	
 

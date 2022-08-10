@@ -116,6 +116,7 @@ img {
 .tab
 {
  margin: 7px;
+ display: flex;
 }
 .card
 {
@@ -131,7 +132,7 @@ width: 300px;
 {
   width : 280px;
   height: 280px;
-  /* margin: 0px 0px 20px 50px; */
+  padding: 0px 0px 0px 10px;
 
 }
 .cardimage
@@ -146,6 +147,8 @@ width: 300px;
 {
   display: flex;
   margin: 0px 0px 0px 80px;
+  align-items: center;
+  
 }
 .allbas
 {
@@ -161,4 +164,10 @@ span
   margin: 0px 200px 0px 30px;
   color: gray;
   text-decoration: line-through;
+  font-size: 9px;
 }
+.types
+{
+  padding: 0px 0px 0px 7px;
+}
+
