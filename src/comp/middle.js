@@ -41,7 +41,7 @@ function App() {
     </table>
 	</div>
     <div className='Image' >
-		<img src={image}/> 
+		<img src={image} alt="solde"/> 
 	</div>
 	</div>
 	
